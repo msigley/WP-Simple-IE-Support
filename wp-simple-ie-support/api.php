@@ -45,7 +45,7 @@ class WPSimpleIESupportAPI {
 		<div class="is_ie_banner">
 			Looks like you're using an outdated web browser.<br />
 			This website will no longer support outdated versions of Internet Explorer and Edge.<br />
-			<u>Click here and download and install the latest version of Microsoft Edge to use all of the features of this website.</u>
+			<u>Click here to download and install the latest version of Microsoft Edge to use all of the features of this website.</u>
 			<a href="https://www.microsoft.com/en-us/edge" class="link" target="_blank"></a>
 		</div>
 		<?php
