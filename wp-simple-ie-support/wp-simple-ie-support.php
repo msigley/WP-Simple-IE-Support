@@ -3,7 +3,7 @@
 Plugin Name: WP Simple IE Support
 Plugin URI: https://github.com/msigley
 Description: Adds compatibility code layer for IE visitors. Provides a banner prompting them to download Edge.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 4.8.0
 Author: Matthew Sigley
 License: GPL2

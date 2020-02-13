@@ -22,10 +22,16 @@ class WPSimpleIESupportPublic {
 		<script type="text/javascript">
 		<?php include $this->main->get_path() . 'js/ts-polyfill.js'; ?>
 		</script>
-		<!-- CSS Variable Polyfill -->
+		<!-- Nodelist Polyfill -->
+		<script type="text/javascript">
+		<?php include $this->main->get_path() . 'js/nodelist-polyfill.js'; ?>
+		</script>
+		<!-- CSS Variable Polyfill for IE 11 -->
+		<!--[if IE 11]>
 		<script type="text/javascript">
 		<?php include $this->main->get_path() . 'js/ie11CustomProperties.js'; ?>
 		</script>
+		<![endif]-->
 		<?php
 	}
 
