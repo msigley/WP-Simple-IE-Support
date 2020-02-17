@@ -27,11 +27,15 @@ class WPSimpleIESupportPublic {
 		<?php include $this->main->get_path() . 'js/nodelist-polyfill.js'; ?>
 		</script>
 		<!-- CSS Variable Polyfill for IE 11 -->
-		<!--[if IE 11]>
 		<script type="text/javascript">
-		<?php include $this->main->get_path() . 'js/ie11CustomProperties.js'; ?>
+		if( !!window.MSInputMethodContext ) {
+			var s = document.createElement('script');
+			s.async = true;
+			s.src = '<?php echo plugins_url( '/js/ie11CustomProperties.js', __FILE__ ); ?>';
+			var scripts = document.getElementsByTagName('script');
+				scripts[scripts.length - 1].parentNode.insertBefore(s, scripts[scripts.length - 1]);
+		}
 		</script>
-		<![endif]-->
 		<?php
 	}
 
