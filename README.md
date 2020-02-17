@@ -1,3 +1,4 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A01FORH)
 # WP-Simple-IE-Support
 Adds compatibility code layer for IE visitors. Provides a banner prompting them to download Edge.
 
